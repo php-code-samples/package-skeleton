@@ -1,7 +1,9 @@
-<?php namespace PeteHouston\Sample;
+<?php
 
-class HelloWorld {
+namespace PhpCodeSamples\PackageSkeleton;
 
+class HelloWorld
+{
     public function greet()
     {
         return "Hello World";

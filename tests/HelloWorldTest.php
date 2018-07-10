@@ -1,9 +1,11 @@
 <?php
 
-use PeteHouston\Sample\HelloWorld;
+namespace PhpCodeSamples\PackageSkeleton\Tests;
 
-class HelloWorldTest extends PHPUnit_Framework_TestCase {
+use
 
+class HelloWorldTest extends PHPUnit_Framework_TestCase
+{
     public function testGoodGreeting()
     {
         $hello = new HelloWorld;

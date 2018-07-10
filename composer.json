@@ -1,5 +1,5 @@
 {
-    "name": "petehouston/php-package-sample",
+    "name": "php-code-samples/package-skeleton",
     "description": "The sample for creating a PHP package",
     "require": {},
     "require-dev": {
@@ -8,14 +8,14 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Pete Houston",
-            "email": "contact@petehouston.com"
+            "name": "Francesco Bianco",
+            "email": "bianco@javanile.org"
         }
     ],
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "PeteHouston\\Sample\\": "src"
+            "PhpCodeSamples\\PackageSkeleton\\": "src"
         }
     }
 }
