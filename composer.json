@@ -1,0 +1,21 @@
+{
+    "name": "petehouston/php-package-sample",
+    "description": "The sample for creating a PHP package",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "~4.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pete Houston",
+            "email": "contact@petehouston.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "PeteHouston\\Sample\\": "src"
+        }
+    }
+}
