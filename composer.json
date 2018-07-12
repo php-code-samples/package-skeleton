@@ -9,7 +9,7 @@
     "repositories": [
         {
             "type": "git",
-            "url": "https://github.com/javanile/producer"
+            "url": "https://github.com/php-code-samples/package-skeleton"
         }
     ],
     "license": "MIT",
